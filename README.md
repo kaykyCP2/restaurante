@@ -93,3 +93,56 @@ if opcoes == "1":
             print("ok", usuario, " iquando quiser é s´chamar")
        else:
            print(" quer fazer mais algum pedido?")
+           
+           
+           
+           
+           
+           
+           
+           
+           
+           #pratos feitos
+           
+           
+if opcoes == 2:
+    print("então vamos para os sabores", usuario)
+    print(" strogonoff (1) \n carne assada(2) \n GAlinha a parmedia(3) ") 
+    saborprato= input("Escolha o SEu prato com respectivos numeros: \n : ")
+    if saborprato == "1":
+        print(" Seu strogonoff estara pronto em 15 minutos ")
+        print("35 minutes later")
+        atoa= input(" podemos trazer para mesa? (Sim ou Não")
+        if atoadois == "sim" or "Sim" :
+                       print(" aqui esta seu pedido, boa refeição",usuario, ":)")
+        elif atoa == "não" or "Não":
+                       print("ok", usuario, " iquando quiser é só chamar")
+        else:
+            print(" quer fazer mais algum pedido?")
+            
+            
+                       
+elif saborp == "2":  
+    print(" A carne assada estara pronta em 10 minutos ")
+    print("10 minutes later")
+    atoa= input(" podemos trazer para mesa? (Sim ou Não")
+    if atoadois == "sim" or "Sim":
+        print(" aqui esta seu pedido, boa refeição",usuario, ":)")
+    elif atoadois == "não" or "Não" :
+        print("ok", usuario, " iquando quiser é só chamar")
+    else:
+        print(" quer fazer mais algum pedido?")
+    
+    
+                    
+                    
+elif saborp == "3":  
+    print(" Sua pizza de calabresa estara pronta em 30 minutos ")
+    print("30 minutes later")
+    atoa= input(" podemos trazer para mesa? (Sim ou Não")
+    if atoa == "sim" or "Sim":
+        print(" aqui esta seu pedido, boa refeição",usuario, ":)")
+elif atoa == "não" or "Não" :
+    print("ok", usuario, " iquando quiser é só chamar")
+else:
+    print(" quer fazer mais algum pedido?")
